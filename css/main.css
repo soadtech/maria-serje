@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #639fcd;
+}
+header {
+  background-color: #ffffff;
+}
+header nav .logo {
+  font-weight: 700;
+  color: #639fcd !important;
+  font-size: 2rem;
+}
+header nav .nav-list {
+  display: flex;
+  padding: 0px;
+  margin: 0;
+}
+header nav ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+header nav ul li a {
+  color: #639fcd !important;
+  font-weight: 700;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+}
+
+/** SECCION HERO **/
+.content-hero {
+  margin-top: 8%;
+}
+.hero h1 {
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-size: 4rem;
+}
+.hero h3 {
+  color: #1b6196;
+  font-weight: bold;
+  line-height: 40px;
+}
+.hero h3 span {
+  font-size: 15px;
+  font-weight: normal;
+}
+.btn-learn {
+  background-color: #1b6196;
+  border-radius: 25px;
+  padding: 5px 25px;
+  color: #fff;
+  margin-top: 7%;
+}
+
+/** SECCION DE PRUEBA **/
+.servicios {
+  background-color: #fff;
+}
+.servicios img {
+  width: 200px;
+}
+.servicios h2 {
+  color: #1b6196;
+}
+.servicios p {
+  color: #7fabcd;
+}
+
+/** SECCION DE NEWS **/
+.news {
+  background: url(../img/background.png);
+}
+.new .amarillo {
+  width: 100%;
+  height: 50px;
+  background-color: #f8cd93;
+}
+.news h2 {
+  padding-top: 5%;
+  text-align: center;
+  color: #1b6196;
+}
+.card,
+.card img {
+  border-radius: 15px !important;
+  border: none !important;
+}
+
+.card p {
+  color: #639fcd;
+}
+.card a {
+  color: #1b6196;
+  font-weight: 700;
+}
+.news .contenedor-servicios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5%;
+}
+.news .btn-blog a {
+  text-align: center;
+  color: #1b6196;
+  font-weight: 700;
+}
+
+/** SECCION DE CONTACTO **/
+
+.contacto {
+  background-image: url(../img/backgroundV.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contacto .titleBox {
+  background-color: #639fcd;
+  border-radius: 25px;
+  padding: 75px 5px;
+  margin-top: 20%;
+}
+.contacto .titleBox h2 {
+  color: #fff;
+  margin-left: 17px;
+}
+.contacto form {
+  margin-top: 5%;
+  width: 70%;
+  float: right;
+}
+.contacto form input,
+.contacto form textarea {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.contacto label {
+  color: #1b6196;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+/** SECCION DE FOOTER **/
+
+footer p {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
